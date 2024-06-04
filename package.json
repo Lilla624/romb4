@@ -4,7 +4,8 @@
   "description": "A project created by the Sinto command",
   "scripts": {
     "start": "browser-sync start --config bs-config.json",
-    "build": "tsc --watch"
+    "build": "tsc --watch",
+    "test": "mocha"
   },
   "dependencies": {
     "bootstrap": "^5.3.3"
